@@ -1,0 +1,126 @@
+*,html,body {
+margin: 0;
+padding: 0%;
+box-sizing: border-box;
+font-family: Helvetica;
+}
+
+header {
+ background-color: darkblue;
+ color: #eaeaee;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+align-items: center;
+ gap: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    color: blue;
+    display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+align-items: center;
+}
+
+a {
+color: aqua; 
+text-decoration: none;
+flex-direction: column;
+font-size: 10px;
+flex: wrap ;
+margin: 5px;
+padding: 5px;
+}
+
+.nav {
+display: flex;
+padding: 15px;
+ }
+
+.mbg {
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all .5s ease 0s;
+}
+
+.mbg:hover {
+color: blueviolet;
+transform: rotate(3deng);
+}
+
+.btn {
+    background-color: orangered;
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 15px;
+    border-radius: 8px;
+    font: bolder;
+cursor: pointer;
+}
+
+.btn:hover {
+    color: blueviolet;
+    transform: rotate(2deng);
+}
+.container { 
+max-width: 100vh;
+margin: auto;
+width: 300px;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.title {
+    font-size: 20px;
+    font-width: bolder;
+    font-weight: bolder ;
+
+}
+
+.marah {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.poto-home {
+    max-width: 600px;
+    max-height: 600px;
+    width: 100%;
+    height: 100%;
+}
+
+.paralax {
+    background-image: url(download\ \(3\).jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 103vh;
+max-width: max-content;
+}
+.tentang {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: red;
+color: #eaeaee;
+}
+
+.jawa {
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     background-color: aliceblue;
+     text-size: bolder
+}
